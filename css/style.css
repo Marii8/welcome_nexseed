@@ -310,22 +310,34 @@ footer {
 }
 
 @media screen and (max-width: 960px) {
+
 	.img-box {
 		flex-wrap: wrap;
 	}
+
 	.form {
 		flex-direction: column;
 	}
-
-	textarea {
-		margin-top: 20px;
-	}
 	.form-left {
 	margin-right: 0;
-}
+	/*兜めと揖じセレクタを聞うようにしたいので、textareaではなく、.form-leftにmargin-bottomをいれる。*/
+	margin-bottom: 20px;
+	}
+	.form .name,
+	.form .email {
+		width: 80%;
+		font-size: 16px;
+	}
+	.form .inquiry {
+		width: 80%;
+	}
 
+	.contact button {
+		font-size: 20px;
+		padding: 5px 40px;
+	}
 }
 
 @media screen and (max-width: 480px) {
-
+	
 }
