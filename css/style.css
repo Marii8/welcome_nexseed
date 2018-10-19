@@ -296,3 +296,23 @@ footer {
 .footer-right {
 	margin-right: 80px;
 }
+
+/**/
+/*RESPONSIBLE */
+/**/
+@media screen and (max-width: 1280px) {
+	.img-box {
+	justify-content: space-around;
+}
+	.img-box li {
+		margin-right: 30px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
