@@ -310,6 +310,19 @@ footer {
 }
 
 @media screen and (max-width: 960px) {
+	.img-box {
+		flex-wrap: wrap;
+	}
+	.form {
+		flex-direction: column;
+	}
+
+	textarea {
+		margin-top: 20px;
+	}
+	.form-left {
+	margin-right: 0;
+}
 
 }
 
